@@ -17,6 +17,7 @@ function updateResult(el, rank) {
   el.style.setProperty("--rank", rank)
   el.querySelector(".rank").innerHTML = `Rank ${romanize(rank)}`
   el.querySelector(".rarity").innerHTML = `1/${(2**(rank-1)).toString()}`
+  el.querySelector(".bigrank").innerHTML = romanize(rank)
 }
 
 let best = 1
