@@ -1,2 +1,2 @@
 # rank-rng
-the most simplistic rng i could think of
+hello this is just a funny little project that looks a bit awesome
